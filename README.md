@@ -16,7 +16,7 @@ mvn clean package
 ## Push the sample event
 From the project folder root execute:
 
-java -classpath target/mixpanel_post-1.0.jar com.mixpanel.events.PushEvent <mixpanel token>
+java -classpath target/mixpanel_post-1.0.jar com.mixpanel.events.PushEvent [mixpanel token]
 
 Note: The command line argument <mixpanel token> specifies your Mixpanel project token
 
