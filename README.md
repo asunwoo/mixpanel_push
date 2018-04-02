@@ -10,6 +10,7 @@ git clone https://github.com/asunwoo/mixpanel_push.git
 
 ## Build the project
 In the project root folder execute:
+
 mvn clean package
 
 ## Push the sample event
